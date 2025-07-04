@@ -1,0 +1,59 @@
+Add_recepie.css
+.container {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #1f2320;
+  font-weight: bold;
+}
+
+form {
+  /* background-color: white; */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  border-radius: 8px;
+  /* border: 1px solid #ced4da; */
+  padding: 12px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+
+  .btn-success {
+    font-size: 16px;
+  }
+}

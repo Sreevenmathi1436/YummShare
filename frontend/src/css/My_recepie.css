@@ -1,0 +1,58 @@
+.my-recipes {
+  padding: 20px;
+  background: linear-gradient(135deg, #a6a6a6, #4a4a4a, #000000);
+  min-height: 100vh;
+  
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.recipe-box {
+  /* background: linear-gradient(135deg, #1c51bb, #929594, #07974d); */
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(210, 104, 104, 0.08);
+  transition: transform 0.8s ease;
+}
+
+/* .recipe-box:hover {
+  transform: scale(0.5);
+} */
+
+.recipe-box img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe-box input,
+.recipe-box textarea {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #212020;
+}
+
+.recipe-box button {
+  margin: 5px 5px 0 0;
+  padding: 8px 15px;
+  border: none;
+  background: #009688;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.recipe-box button:hover {
+  background: #00796b;
+}

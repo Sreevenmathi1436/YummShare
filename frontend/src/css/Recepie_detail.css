@@ -1,0 +1,30 @@
+/* .button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.back-btn,
+.share-btn {
+  background-color: #1c51bb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #17409c;
+}
+
+.share-btn:hover {
+  background-color: #07974d;
+} */
+.recipe-title {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
