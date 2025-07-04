@@ -4,21 +4,21 @@ YumShare is a MERN (MongoDB, Express.js, React.js, Node.js) full-stack web app t
 
 Features
 
- -Secure User Authentication (JWT + bcrypt)
+ - Secure User Authentication (JWT + bcrypt)
 
- -Register, Login, and Logout functionality
+ - Register, Login, and Logout functionality
 
- -Add, Edit, Delete your own recipes
+ - Add, Edit, Delete your own recipes
 
- -View all recipes from all users
+ - View all recipes from all users
 
- -Search recipes by name
+ - Search recipes by name
 
- -Profile page to view your username and email
+ - Profile page to view your username and email
 
- -Add recipe image via URL only
+ - Add recipe image via URL only
 
- -Back button & Shareable recipe detail links
+ - Back button & Shareable recipe detail links
 
 
 Security Implementation
